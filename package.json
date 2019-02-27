@@ -1,0 +1,23 @@
+{
+  "name": "form-builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel build src/index.html --public-url / && cp ./_redirects ./dist/_redirects"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "internal-nav-helper": "^3.0.0",
+    "preact": "^8.4.2",
+    "redux-bundler": "^23.1.0",
+    "redux-bundler-preact": "^1.1.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-preact": "^1.1.0",
+    "parcel-bundler": "^1.11.0"
+  }
+}
